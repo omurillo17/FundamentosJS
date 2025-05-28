@@ -17,3 +17,12 @@ function checkCountValue(){
         alert("¡Tu publicacion de Instagram gano 20 seguidores!Sigue asi!");
     }
 }
+
+function restartCount(){
+    count = 0;
+    if(count === 0){
+        alert("El contador de followers ahora es 0");
+    }else{
+        restartCount();
+    }
+}
